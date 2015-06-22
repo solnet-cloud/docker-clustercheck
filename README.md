@@ -1,5 +1,5 @@
 # docker-clustercheck
-clustercheck is a  script for proper reporting of Percona XtraDB cluster nodes
+clustercheck is a script for proper reporting of Percona XtraDB cluster nodes
 
 More details can be found at the github page at https://github.com/olafz/percona-clustercheck
 
@@ -24,4 +24,4 @@ You need to provide the IP address of the host running the MySQL container you a
     optional arguments:
       -h, --help  show this help message and exit
 
-The set up of the cluster is designed to be orchestrated by a tool such as Puppet.  
+The configuration of the clustercheck is designed to be orchestrated by a tool such as Puppet.  
