@@ -64,7 +64,7 @@ RUN \
 RUN \
     wget -O /usr/bin/clustercheck https://raw.githubusercontent.com/olafz/percona-clustercheck/master/clustercheck && \
     chmod 755 /usr/bin/clustercheck && \
-    printf "clustercheck\t9200/tcp\n" >> /etc/services
+    printf "clustercheck\t9201/tcp\n" >> /etc/services
 
 # Entry script
 COPY scripts/entry.py /usr/local/bin/entry
