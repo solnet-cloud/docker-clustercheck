@@ -72,7 +72,7 @@ RUN chmod +x /usr/local/bin/entry
 
 # Expose ports to other containers
 # Expose 9200: clustercheck
-EXPOSE 9200
+EXPOSE 9201
 
 # Define the default command as entrypoint
 ENTRYPOINT ["/usr/local/bin/entry"]
