@@ -5,7 +5,7 @@ service clustercheck
 	disable = no
 	flags = REUSE
 	socket_type = stream
-	port = 9200
+	port = 9201
 	wait = no
 	user = clustchk
 	server = /usr/bin/clustercheck
