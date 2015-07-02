@@ -71,7 +71,7 @@ COPY scripts/entry.py /usr/local/bin/entry
 RUN chmod +x /usr/local/bin/entry
 
 # Expose ports to other containers
-# Expose 9200: clustercheck
+# Expose 9201: clustercheck
 EXPOSE 9201
 
 # Define the default command as entrypoint
